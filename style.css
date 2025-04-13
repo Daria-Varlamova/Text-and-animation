@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  height: 100vh;
+}
+
+.video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: black;
+  mix-blend-mode: multiply;
+}
+
+.text-duplicate,
+ .text {
+  padding: 3%;
+  position: absolute;
+  text-align: justify;
+  inset: 0;
+  font-size: 7.5vw;
+}
+
+.text-duplicate{
+  color: #ffffff;
+}
+
+.text-animation-el {
+  height: 4vw;
+  display: inline-block;
+}
+
+.overlay .text-animation-el {
+  background: #ffffff;
+}
+
+.text-animation-el--1 {
+  width: 17vw;
+}
+
+.text-animation-el--2 {
+  width: 6vw;
+}
+
+.text-animation-el--3 {
+  width: 13vw;
+}
+
+.text-animation-el--4 {
+  width: 49vw;
+}
