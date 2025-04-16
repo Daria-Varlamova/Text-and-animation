@@ -21,6 +21,7 @@ body {
 .overlay {
   position: absolute;
   inset: 0;
+  height: 100vh;
   background: black;
   mix-blend-mode: multiply;
 }
@@ -36,6 +37,7 @@ body {
 
 .text-duplicate{
   color: #ffffff;
+  height: 100vh;
 }
 
 .text-animation-el {
